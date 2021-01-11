@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #363958;
+}
+
+.main-content{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-half{
+    width: 50%;
+    float: left;
+}
+
+.btn {
+    background-image: linear-gradient(180deg, #F46060, #FF8063);
+    display: inline-block;
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-light{
+    background: #f8f9fc;
+}
+.align-center{
+    text-align: center;
+}
+
+.heading-title{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 48px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.subtitle{
+    padding-bottom: 30px;
+    margin: 0;
+
+}
+
+.text-primary{
+    color: #F46060;
+}
+
+.section-padding{
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+/* top-navigation */
+
+.top-navigation{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar{
+    text-align: right;
+    padding: 20px 0;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    color: #363958;
+}
+/* introduce-section */
+.introduce-section{
+    padding-top: 40px;
+}
+
+.introduce-text h2{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 64px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.introduce-text p {
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.introduce-text h2 span{
+    color: #F46060;
+    display: block;
+}
+
+.intro-img img{
+    width: 80%;
+}
+
+
+/* about-sec */
+
+.about-info{
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about-img img{
+    width: 65%;
+    padding-left: 50px;
+}
+
+.about-section{
+    padding-bottom: 100px;
+}
+
+
+/* projects Section  */
+.project-sec {
+    width: 26%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    box-shadow:0 7px 15px rgba(0,0,0,.15);
+    
+}
+
+
+.project-sec h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 22px;
+    color: #363958;
+}
+
+.project-sec p{
+    margin: 0;
+}
+
+
+.project-sec img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Inqiry Scetion */
+
+.inquiry{
+    padding-top: 100px;
+}
+
+.inquiry-box{
+    width: 70%;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: url('shapes/Group_33094_1.png') no-repeat scroll center center /cover;
+}
+
+.inquiry-box h2{
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.inquiry-btn {
+    text-align: right;
+    margin-top: 27px;
+}
+/* contact-sec */
+
+.contact-sec{
+    text-align: center;
+    margin-top: 50px;
+    width:50%;
+    margin: 0 auto;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #FA7162;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* Footer Section */
+
+.footer{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer h4{
+    color: #696871;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding-top: 0;
+    padding: 0px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.footer .email a{
+    font-size: 36px;
+    color: #363958;
+    padding: 20px 0;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social ul li {
+    display: inline-block;
+}
+
+.footer-social ul li a {
+    display: block;
+    padding: 10px;
+}
+
+.footer-social ul li a img {
+    width: 50px;
+    height: 50px;
+}
+
+.copyright{
+    padding-top: 20px;
+}
+.copyright a{
+    display: inline-block;
+    color: #F46060;
+    text-decoration: none;
+}
